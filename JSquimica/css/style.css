@@ -49,14 +49,24 @@
         width: 90%;
         max-width: 1000px;
         border-radius: 10px;
+        padding: 25px;
+    }
+
+    .footer{
+        background-color: aliceblue;
+        width: 90%;
+        max-width: 1000px;
+        border-radius: 7px;
+        margin-top: 50px;
+        padding: 25px;
     }
 
     .quiz{
         background-color: aliceblue;
         margin-top: 100px;
+        padding-bottom: 30px;
         width: 90%;
         max-width: 600px;
-        height: 500px;
         border-radius: 10px;
     }
 
@@ -81,18 +91,70 @@
         cursor: pointer;
     }
 
-    #proximo{
-        background-color: #0e0b1d;
-        color: aliceblue;
-        width: 150px;
-        border-radius: 4px;
-        padding: 10px;
-        margin: 20px 0;
-        cursor: pointer;
-        display: none;
+    .resposta{
+        color: green;
+        padding-left: 50px;
+    }
+
+    .erro{
+        color: red;
+        padding-left: 50px;
     }
 
 
-     
+    #erro1{
+        display: none;
+    }
+    #erro2{
+        display: none;
+    }
+    #erro3{
+        display: none;
+    }
+
+    #resposta1{
+        display: none;
+    }
+    #resposta2{
+        display: none;
+    }
+    #resposta3{
+        display: none;
+    }
+
+    
+   
+    #pb2{
+        display: none;
+    }
+    #pb3{
+        display: none;
+    }
+
+    .pabens{
+        display: none;
+    }
+
+    #parabens{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
 
+    #trueresposta1{
+        display: none;
+        padding: 40px;
+    }
+
+    #trueresposta2{
+        display: none;
+        padding: 40px;
+    }
+
+    #trueresposta3{
+        display: none;
+        padding: 40px;
+    }
