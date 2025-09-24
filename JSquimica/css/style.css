@@ -166,3 +166,16 @@
         display: none;
         padding: 40px;
     }
+
+    #friedrichimg{
+        height: 400px;
+    }
+
+    #cloroimg{
+        height: 400px;
+    }
+
+    #pabensimg{
+        height: 70%;
+        width: 90%;
+    }
